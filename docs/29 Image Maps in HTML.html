@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Maps in HTML</title>
+</head>
+
+<body>
+
+    <!-- Usage of anchor tag to link a website to an image -->
+    <!-- <a href="https://amazon.in" target="_blank">
+            <img src="media\workplace.jpg">
+        </a> -->
+
+    <br>
+
+    <!-- HTML Image Map -->
+    <img src="media\workplace.jpg" usemap="#image_map">
+
+    <map name="image_map">
+
+        <area alt="Laptop" title="Laptop" href="https://www.amazon.in/s?k=Laptop&ref=nb_sb_noss" target="_blank"
+            coords="39,42,267,345" shape="rect">
+
+        <area alt="Smartphone" title="Smartphone"
+            href="https://www.amazon.in/s?k=Smartphone&crid=J5WDROY2WG7R&sprefix=smartphone%2Caps%2C333&ref=nb_sb_noss_1"
+            target="_blank" coords="291,174,331,242" shape="rect">
+
+        <area alt="Coffee" title="Coffee"
+            href="https://www.amazon.in/s?k=Coffe+cup&crid=3MM5G1UL7HB2I&sprefix=coffe+c%2Caps%2C946&ref=nb_sb_noss_2"
+            target="_blank" coords="338,300,45" shape="circle">
+
+    </map>
+
+
+    <!-- Image Map generator Online: https://imagemap.org/ -->
+
+</body>
+
+</html>
